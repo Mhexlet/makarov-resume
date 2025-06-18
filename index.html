@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Резюме — Дмитрий Макаров</title>
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
   <script src="3.4.16.js"></script>
   <script>
     tailwind.config = {
@@ -51,14 +52,13 @@
         <h2 class="text-xl md:text-2xl font-semibold mb-4 text-yandexGreen">Цель</h2>
         <ol class="list-decimal list-inside space-y-2 text-gray-800 text-sm md:text-base">
           <li>Увеличить рыночную долю Яндекс&nbsp;Недвижимости в РФ.</li>
-          <li>Увеличить доходность за счёт комиссий по сделкам (первичный + вторичный рынок).</li>
+          <li>Увеличить доходность направления за счёт комиссий по сделкам (первичный + вторичный рынок).</li>
           <li>Запустить новые источники прибыли: сервисы для риелторов и застройщиков, финтех/страхование.</li>
         </ol>
 
         <div class="mt-6 space-y-4 text-gray-700 text-sm md:text-base">
           <p>Avito уже превзошёл Циан в Москве и доминирует почти во всех регионах, они уже предлагают: ипотеку, подбор новостроек, сервис комфортная сделка (комиссия&nbsp;20 % — и она будет расти).</p>
-          <p>Уже точно можно сказать что Avito готовит агентство недвижимости и в ближайшие 5–10 лет рынок поделят 3–4 игрока и вопрос лишь в пропорции долей.</p>
-          <p>socol24 (разработка с 2024 года) показывает, как <strong>история цен экономит агенту ≈ 50 % времени</strong> на оценке и в принципе делает ее возможной потому что аналогичные сервисы отсутствуют. Использую этот опыт, чтобы усилить Яндекс&nbsp;Недвижимость.</p>
+          <p>Уже точно можно сказать что Avito готовит агентство недвижимости и в ближайшие 5–10 лет рынок поделят 3–4 игрока и вопрос лишь в пропорции долей, но пока ни циан ни домклик ни яндекс недвижимость не проявили активность в этом направлении.</p>
         </div>
       </section>
 
@@ -67,8 +67,9 @@
         <h2 class="text-xl md:text-2xl font-semibold mb-4 text-yandexBlue">Проекты и достижения</h2>
         <ul class="list-disc list-inside space-y-3 text-gray-800 text-sm md:text-base">
           <li><strong>socol24.ru</strong> — автор и разработчик. Охват <strong>30 городов</strong>, сбор и анализ истории цен.</li>
-          <li>Собственный парсер (Node.js) — прямые эндпоинты Avito + пул LTE-прокси на Raspberry Pi.</li>
-          <li><strong>500 000+ объектов</strong>, активные агенты из Иркутска и других регионов используют сервис ежедневно.</li>
+          <li>На сегодняшний день пока не имеет прямых конкурентов</li>
+          <li>Написан собственный парсер (Node.js) — сбор идёт с прямых эндпоинтов Avito + свой пул LTE-прокси на Raspberry Pi.</li>
+          <li><strong>База 500 000+ объектов</strong>, активные агенты из Иркутска и других регионов используют сервис ежедневно.</li>
           <li>MVP CRM для агентской работы — в стадии закрытого тестирования.</li>
           <li>Полный E2E‐стек разработан лично: React (front), Django REST (back), Node парсер. Планируется модель аналитики на GO</li>
         </ul>
@@ -82,6 +83,17 @@
           <li>Telegram-канал проекта: <a href="https://t.me/socol24" class="text-yandexBlue hover:underline">@socol24</a></li>
         </ul>
       </section>
+            <!-- Образование (раскомментировать при необходимости) -->
+      
+      <section class="bg-white rounded-3xl shadow-lg p-4 md:p-6 animate-fade-in-up">
+        <h2 class="text-xl md:text-2xl font-semibold mb-4 text-yandexYellow">Образование</h2>
+        <p class="text-gray-800 text-sm md:text-base">Иркутский Государственный Университет Путей Сообщения, 2002–2007</p>
+        <ul class="list-disc list-inside ml-5 mt-2 text-gray-800 text-sm md:text-base">
+          <li>Строительство железных дорог</li>
+          <li>Финансы и кредит</li>
+        </ul>
+      </section>
+     
     </main>
 
     <!-- ---------------- SIDEBAR (второй на мобиле) ---------------- -->
@@ -128,6 +140,11 @@
             </div>
 
             <div class="mt-2 text-sm text-gray-700">Лёгкость в командной работе
+              <div class="w-full bg-gray-200 h-1.5 mt-1 rounded-full">
+                <div class="bg-yandexBlue h-1.5 w-4/5 rounded-full"></div>
+              </div>
+            </div>
+            <div class="mt-2 text-sm text-gray-700">подготовка по американской системе продаж Mike Ferry
               <div class="w-full bg-gray-200 h-1.5 mt-1 rounded-full">
                 <div class="bg-yandexBlue h-1.5 w-4/5 rounded-full"></div>
               </div>
